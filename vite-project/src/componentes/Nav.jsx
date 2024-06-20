@@ -3,7 +3,8 @@
      <>
         <nav id="navBar">
         <li>Inicio</li>
-            {Iniciada? <a>Cerrar sesión</a> : <a>Iniciar sesión</a>} 
+            {Iniciada? <a href="Inputs.jsx">Cerrar sesión</a> : <a>Iniciar sesión</a>} 
+             
         </nav>
      </>
 )
